@@ -12,7 +12,7 @@ console.log("The person's name is: " + fullName);
 person.job = 'artist';
 console.log("The person's current job is: " + person.job);
 
-person.previousJob = 'pizza boy';
+person['previousJob'] = 'pizza boy';
 console.log('Their previous job was: ' + person.previousJob);
 
 console.log(person);
